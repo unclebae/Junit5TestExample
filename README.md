@@ -350,7 +350,7 @@ assumingThat() : 첫번째 파라미터가 참일때, 다음 검증을 수행합
 ```
     @AfterEach
     void tearDown() {
-        System.out.println("@AfterEach: 는 각 테스트가 끝날때 수행된다. 테스트 자원을 정리할때 보통 이용합니다.");
+        System.out.println("@AfterEach: 는 각 테스트가 끝날때 수행된다. 테스트 자원을 정리할때 보통 이용합니다. 일반적으로 테스트 리소스 정리를 tearDown 이라고 부릅니다.");
     }
 
     @AfterAll
